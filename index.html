@@ -28,24 +28,37 @@
         <div class="collapse navbar-collapse" id="menuPrincipal">
             <ul class="navbar-nav ml-auto" id="menuPrincipal">
                 <li class="item">
-                    <a class="nav-link" href="#" id="logeo">Login</a>
+                    <a class="nav-link"  href="./index.html" id="inicio">Inicio</a>
                 </li>
                 <li class="item">
-                    <a class="nav-link" href="#" id="nuevoUsuario">New User</a>
+                    <a class="nav-link"  href="#" id="nosotros">Nosotros</a>
                 </li>
                 <li class="item">
-                        <a class="nav-link" href="#" id="contacto">Contact</a>
+                    <a class="nav-link" data-toggle="modal" data-target="#logeoModal1" href="#" id="logeo">Ingresa</a>
+                </li>
+               
+                <li class="item">
+                    <a class="nav-link" data-toggle="modal" data-target="#logeoModal2" href="#" id="nuevoUsuario">Registrate</a>
+                    
+                </li>
+                <li class="item">
+                        <a class="nav-link" href="#" id="contacto">Contáctanos</a>
                     </li>
                 
             </ul>
         </div>
     </nav>
+    <!--Ventanas Modales-->
+    <div id="logeoModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true"></div>
+    <div id="logeoModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true"></div>
+    <!--Fin de ventanas modales-->
     <!-- Fin de cabecera  -->
     <!-- Mapa principal -->
-    <!--<div class="container-fluid" >-->
-        <div id="mapa"></div>
+    <div id="contenidoPrincipal">
+        
+        <div  id="mapa"></div>
        
-    <!--</div>-->
+    </div>
     <!--Fin de Mapa Principal-->
     <!--Pie de Página -->
     <footer  class="section section_footer fixed-bottom">

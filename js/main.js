@@ -1,6 +1,8 @@
 $(document).ready(function () {
     mapa();
-    
+    ventanasModales();
+    eventosMenuPrincipal();
+
 
 });
 
@@ -14,4 +16,14 @@ function mapa(){
             pitch:60,
             bearing:57.60
         });
+}
+
+
+function ventanasModales(){
+    $("#logeoModal2").load("./html/ventanaModal2.html");
+    $("#logeoModal1").load("./html/ventanaModal1.html");
+}
+
+function eventosMenuPrincipal(){
+ //agregar elementos de los trozos de html
 }
