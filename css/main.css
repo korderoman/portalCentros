@@ -1,0 +1,17 @@
+#mapa{
+    margin-top: 60px;
+    position:absolute; top:0; bottom:0; width:100%; 
+}
+footer{
+    background-color: #2f2e2e;
+}
+
+#blacksheep{
+    color:gray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70%;
+}
+#piedePagina{
+    margin-top: 2%;
+}

@@ -1,0 +1,17 @@
+$(document).ready(function () {
+    mapa();
+    
+
+});
+
+function mapa(){
+    mapboxgl.accessToken="pk.eyJ1Ijoia29yZGVybyIsImEiOiJjamMzcGZjMWMwd3E4MzRyNWgydnBkeXcwIn0.iLV9rTPsMQUWJa2EPDydSw";   
+        var map = new mapboxgl.Map({
+            container: 'mapa', // container id
+            style: 'mapbox://styles/kordero/cjf5smjce1c5z2squmu1xikci', // stylesheet location
+            center:[-77.0499223,-12.020672], // starting position [lng, lat]
+            zoom: 16.76, // starting zoom
+            pitch:60,
+            bearing:57.60
+        });
+}
