@@ -1,4 +1,5 @@
 $(document).ready(function () {
+   
     mapa();
     ventanasModales();
     eventosMenuPrincipal();
@@ -25,5 +26,19 @@ function ventanasModales(){
 }
 
 function eventosMenuPrincipal(){
- //agregar elementos de los trozos de html
+    $("#nosotros").click(function (e) { 
+        e.preventDefault();
+        $("#contenidoPrincipal").load("./html/nosotros.html");
+      
+
+       
+     
+    });
+   
+   
+  
+
 }
+
+
+

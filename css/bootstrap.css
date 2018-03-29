@@ -478,7 +478,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  /*Modificacion 100%*/
+  max-width: 60%;
   height: auto;
 }
 
